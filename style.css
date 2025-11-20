@@ -1,9 +1,10 @@
 #navigationBar{
     display: flex;
     justify-content: space-between;
-   margin-left: 3rem;
-   margin-right: 3rem;
-   margin-top: 1rem;
+   /* margin-left: 3rem;
+   margin-right: 3rem; */
+   /* margin-top: 1rem; */
+   /* width: 100%; */
 }
 
 #middleNav{
@@ -54,5 +55,25 @@
 }
 .rightNavButtons:hover{
     cursor: pointer;
-    
+
 }
+
+/* From here the main section code begins */
+
+#fullWorkingSection{
+    display:flex;
+
+}
+#SideBar{
+    display: flex;
+    flex-direction: column;
+    height:87vh;
+    width: 260px;
+    background: rgb(199, 199, 199);
+    margin-left: none;
+}
+.sidebarButton{
+    height: 40px;
+
+}
+
