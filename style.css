@@ -1,3 +1,14 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: rgb(71, 70, 70);
+    color: white;
+}
 #navigationBar{
     display: flex;
     justify-content: space-between;
@@ -6,13 +17,21 @@
    /* margin-top: 1rem; */
    /* width: 100%; */
 }
-
+#leftNav{
+    background-color: rgb(54, 54, 54);
+    width: 250px;
+    text-align: center;
+    color:aqua;
+    /* text-decoration: underline  ; */
+    text-shadow: 2px 3px 2px white ;
+}
 #middleNav{
     border: 2px solid black;
     border-radius:20px ;
     height: 40px;
     margin-top: 1rem;
-    margin-left: 94px;
+    /* margin-left: 94px; */
+    margin-right: 100px;
 }
 #searchBar{
     height: 35px;
@@ -21,6 +40,7 @@
     font-size: large;
     border: none;
     background: transparent;
+    color: white;
 }
 #searchBar:focus{
     border: none;
@@ -51,6 +71,7 @@
     background: transparent;
     border: none;
     font-size: 24px;
+    color: white;
 
 }
 .rightNavButtons:hover{
@@ -67,13 +88,35 @@
 #SideBar{
     display: flex;
     flex-direction: column;
-    height:87vh;
-    width: 260px;
-    background: rgb(199, 199, 199);
-    margin-left: none;
+    gap: 0;
+    margin: 0;
+    height:655px;
+    width: 250px;
+    background: rgb(54, 54, 54);
+    color: white;
+}
+#profile{
+    text-align: center;
+    /* padding-left: 20px; */
+    color:white;
+    margin-top: 45px;
+    font-size: 100px;
+    margin-bottom: 40px;
+
+
 }
 .sidebarButton{
-    height: 40px;
+    height: 50px;
+    background: none;
+    color: white;
+    font-size: large;
+    text-align: start;
+    padding-left: 1rem;
+    font-weight: 600;
+    border: none;
 
+}
+.sidebarButton:hover{
+    background: rgb(83, 81, 81);
 }
 
