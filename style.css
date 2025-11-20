@@ -16,8 +16,10 @@ html{
    margin-right: 3rem; */
    /* margin-top: 1rem; */
    /* width: 100%; */
+   /* margin-bottom: 1rem; */
 }
 #leftNav{
+    /* height:max-content; */
     background-color: rgb(54, 54, 54);
     width: 250px;
     text-align: center;
@@ -30,6 +32,7 @@ html{
     border-radius:20px ;
     height: 40px;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     /* margin-left: 94px; */
     margin-right: 100px;
 }
@@ -90,7 +93,7 @@ html{
     flex-direction: column;
     gap: 0;
     margin: 0;
-    height:655px;
+    height:638px;
     width: 250px;
     background: rgb(54, 54, 54);
     color: white;
