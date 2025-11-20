@@ -54,7 +54,6 @@ html{
 #searchButton{
     border: none;
     height: 40px;
-    border: none;
     background: transparent;
     border-radius: 20px;
     width: 70px;
@@ -124,3 +123,41 @@ html{
     background: rgb(83, 81, 81);
 }
 
+
+
+/* Full working area from is from here  */
+#workingArea{
+ padding-top: 3rem;
+ padding-left: 8rem;
+   
+    
+
+
+}
+#inputBar{
+display: flex;  
+gap: 0.3rem;
+
+
+   
+}
+#inputBox{
+  height: 35px;
+    width: 420px;
+    padding-left: 20px;
+    font-size: large;
+      border-radius: 5px;
+       background: transparent;
+}
+#addTaskButton{
+border: none;
+    height: 35px;
+    background: rgb(82, 162, 248);
+    border-radius: 5px;
+    width: 90px;
+    font-size: large;
+    
+}
+#taskLists{
+
+}
