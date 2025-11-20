@@ -1,0 +1,58 @@
+#navigationBar{
+    display: flex;
+    justify-content: space-between;
+   margin-left: 3rem;
+   margin-right: 3rem;
+   margin-top: 1rem;
+}
+
+#middleNav{
+    border: 2px solid black;
+    border-radius:20px ;
+    height: 40px;
+    margin-top: 1rem;
+    margin-left: 94px;
+}
+#searchBar{
+    height: 35px;
+    width: 420px;
+    padding-left: 20px;
+    font-size: large;
+    border: none;
+    background: transparent;
+}
+#searchBar:focus{
+    border: none;
+    outline: none;
+}
+
+#searchButton{
+    border: none;
+    height: 40px;
+    border: none;
+    background: transparent;
+    border-radius: 20px;
+    width: 70px;
+    font-size: large;
+    
+}
+#searchButton:hover{
+    background: rgb(104, 160, 244);
+    cursor: pointer;
+    color: white;
+}
+#rightNav{
+    display: flex;
+    gap: 40px;
+
+}
+.rightNavButtons{
+    background: transparent;
+    border: none;
+    font-size: 24px;
+
+}
+.rightNavButtons:hover{
+    cursor: pointer;
+    
+}
