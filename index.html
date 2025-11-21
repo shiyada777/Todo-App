@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do App</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -15,45 +17,55 @@
           <h1>To Do</h1>
         </div>
         <div id="middleNav" class="navPart">
-          <input type="text" id="searchBar" placeholder="Search task..." class="inputBox">
-          <button id="searchButton" class="button"><i class="fa-solid fa-magnifying-glass"></i></button>
-
+          <input
+            type="text"
+            id="searchBar"
+            placeholder="Search task..."
+            class="inputBox"
+          />
+          <button id="searchButton" class="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
         </div>
         <div id="rightNav" class="navPart">
-          <button class="rightNavButtons"><i class="fa-regular fa-bell"></i></button>
-          <button class="rightNavButtons"><i class="fa-regular fa-moon"></i></button>
-          <button class="rightNavButtons"><i class="fa-solid fa-gear"></i></button>
+          <button class="rightNavButtons">
+            <i class="fa-regular fa-bell"></i>
+          </button>
+          <button class="rightNavButtons">
+            <i class="fa-regular fa-moon"></i>
+          </button>
+          <button class="rightNavButtons">
+            <i class="fa-solid fa-gear"></i>
+          </button>
         </div>
       </nav>
-      <hr>
+      <hr />
     </header>
     <main>
       <section id="fullWorkingSection">
         <!-- This is the side bar in the main section -->
-  
+
         <section id="SideBar">
-         <div id="profile"><i class="fa-solid fa-circle-user"></i></div>
-         <button class="sidebarButton">Home</button>
-         <button class="sidebarButton">Important Tasks</button>
-         <button class="sidebarButton">Category</button>
-         <button class="sidebarButton">Setting</button>
-         <button class="sidebarButton">Help</button>
-         <button class="sidebarButton">log out</button>
+          <div id="profile"><i class="fa-solid fa-circle-user"></i></div>
+          <button class="sidebarButton">Home</button>
+          <button class="sidebarButton">Important Tasks</button>
+          <button class="sidebarButton">Category</button>
+          <button class="sidebarButton">Setting</button>
+          <button class="sidebarButton">Help</button>
+          <button class="sidebarButton">log out</button>
         </section>
 
         <!-- This is the main working section -->
         <section id="workingArea">
-         <div id="inputBar">
-          <input type="text" id="inputBox" placeholder="Add Tasks...">
-          <button id="addTaskButton">Add Task</button>
-         </div>
-         <div id="taskLists">
-
-         </div>
+          <div id="inputBar">
+            <input type="text" id="inputBox" placeholder="Add Tasks..." />
+            <button id="addTaskButton">Add Task</button>
+          </div>
+          <ol start="1" id="orderList">
+            <li></li>
+          </ol>
         </section>
       </section>
-     
-  
     </main>
     <footer></footer>
 

@@ -160,4 +160,27 @@ border: none;
 }
 #taskLists{
 
+    height: auto;
+}
+
+
+/* created dom elements */
+
+.elementCreated{
+    display: flex;
+}
+#checkBox{
+
+}
+#taskText{
+
+}
+#editTaskButton{
+
+}
+#deleteTaskButton{
+
+}
+#date{
+
 }
