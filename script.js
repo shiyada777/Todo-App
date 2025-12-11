@@ -4,8 +4,6 @@ let inputBox=document.getElementById("inputBox");
 let addTaskButton=document.getElementById("addTaskButton");
 let orderList=document.getElementById("orderList");
 
-
-
 //add task function
 addTaskButton.addEventListener("click",function(){
     if(inputBox.value===""){
